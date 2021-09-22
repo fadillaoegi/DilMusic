@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bgds2"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="65dp"
+        android:src="@drawable/login2"/>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnotif"/>
+
+    <LinearLayout
+        android:id="@+id/L1L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingTop="169dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/L1L1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imel"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Email :"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/loginemail"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:hint="@string/email"
+            android:textColorHint="@color/fontHint"/>
+
+        <LinearLayout
+            android:id="@+id/L1L2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:src="@drawable/pass"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Password :"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/loginpass"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:textColorHint="@color/fontHint"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L2L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="@color/login"
+            android:textColorHint="@color/white"/>
+
+        <Button
+            android:id="@+id/register1"
+            android:backgroundTint="@color/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:textColorHint="@color/white"/>
+
+        <Button
+            android:id="@+id/coba"
+            android:backgroundTint="@color/without"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="try without account"
+            android:textColorHint="@color/white"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

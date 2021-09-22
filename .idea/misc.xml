@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/activity_laguangel.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/activity_laguorange.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/activity_lagutothebone.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/activity_list_users.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/activity_list_view.xml" value="0.2" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/activity_login.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/activity_main.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/activity_uimusic.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/layout/menu.xml" value="0.1334853090172239" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2601851851851852" />
+        <entry key="..\:/Android/Kuliah/UAS-Mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2601851851851852" />
+        <entry key="..\:/Android/android/Java/Project/DilMusic/app/src/main/res/layout/activity_lagutothebone.xml" value="0.17335526315789473" />
+        <entry key="..\:/Android/android/Java/Project/DilMusic/app/src/main/res/layout/activity_list_master.xml" value="0.17335526315789473" />
+        <entry key="..\:/Android/android/Java/Project/DilMusic/app/src/main/res/layout/activity_list_view.xml" value="0.17335526315789473" />
+        <entry key="..\:/Android/android/Java/Project/DilMusic/app/src/main/res/layout/activity_main.xml" value="0.20923913043478262" />
+        <entry key="..\:/Android/android/Java/Project/DilMusic/app/src/main/res/layout/menu.xml" value="0.12" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

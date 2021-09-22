@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bgds2"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:src="@drawable/register2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:id="@+id/notif"/>
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:id="@+id/L1R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/L1R1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imel"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Email :"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="@string/email"
+            android:textColorHint="@color/fontHint"/>
+
+        <LinearLayout
+            android:id="@+id/L1R2"
+            android:layout_width="match_parent"
+
+            android:paddingTop="30dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pass"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Password :"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="@string/pass"
+            android:inputType="textPassword"
+            android:textColorHint="@color/fontHint"/>
+
+        <LinearLayout
+            android:id="@+id/L1R3"
+            android:layout_width="match_parent"
+
+            android:paddingTop="30dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/phone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Phone :"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/nohp"
+            android:paddingTop="0dp"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="(62+)85211119246"
+            android:inputType="phone"
+            android:textColorHint="@color/fontHint"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L2R"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="500dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColorHint="@color/white"/>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button2"
+            android:text="register"
+            android:textColorHint="@color/white"/>
+
+    </LinearLayout>
+
+</FrameLayout>

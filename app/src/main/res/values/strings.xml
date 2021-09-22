@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DilMusic</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="email">example@gmail.com</string>
+    <string name="pass">********</string>
+    <string name="about">Aplikasi Dil Music adalah sebuah aplikasi yang menyediakan layanan streaming music lirikdan dapat juga mendengar podcast secara gratis.
+Dil Music mempunyai fitur yaitu user dapat memilih genre lagu yang di sukai, dapat di share melalui social media, dan menyediakan.
+Kelemahan dari aplikasi Dil Music ini adalah aplikasi yang belum power full atau masih dalam pengembangan.
+</string>
+    <string name="nama">M Fadil Muhtarom Laoegi</string>
+    <string name="nim">19410100076</string>
+    <string name="imel">fadilfdl2710@gmail.com</string>
+    <string name="story">Saya Fadil Mahasiswa Universitas Dinamika Surabaya, Hobi saya Ngoding, nonton anime,
+        badminton, dan main alat musik. Saya Lulusan SMA N 1 Wawotobi, Sulawesi Tenggara</string>
+
+</resources>
