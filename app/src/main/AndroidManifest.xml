@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DilMusic"
         android:usesCleartextTraffic="true">
-        <activity android:name=".update"></activity>
+        <activity
+            android:name=".BottomNavbar"
+            android:exported="true" />
+        <activity android:name=".update" />
         <activity android:name=".delete" />
         <activity android:name=".list_users" />
         <activity android:name=".list_master" />
@@ -28,7 +31,8 @@
         <activity android:name=".dashboard" />
         <activity android:name=".register" />
         <activity android:name=".login" />
-        <activity android:name=".ui.login.LoginActivity"
+        <activity
+            android:name=".ui.login.LoginActivity"
             tools:ignore="MissingClass" />
         <activity android:name=".MainActivity">
             <intent-filter>
