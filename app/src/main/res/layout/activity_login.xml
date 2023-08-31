@@ -16,13 +16,6 @@
         android:paddingTop="65dp"
         android:src="@drawable/login2"/>
 
-    <TextView
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtnotif"/>
-
     <LinearLayout
         android:id="@+id/L1L"
         android:layout_width="match_parent"
@@ -49,13 +42,14 @@
                 android:text=" Email :"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="15sp"/>
 
         </LinearLayout>
 
         <EditText
             android:id="@+id/loginemail"
             android:layout_width="370dp"
+            android:textSize="20sp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:padding="10dp"
@@ -81,13 +75,14 @@
                 android:textColor="@color/white"
                 android:textStyle="bold"
                 android:paddingTop="15dp"
-                android:textSize="15dp"/>
+                android:textSize="15sp"/>
 
         </LinearLayout>
 
         <EditText
             android:id="@+id/loginpass"
             android:layout_width="370dp"
+            android:textSize="20sp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:padding="10dp"

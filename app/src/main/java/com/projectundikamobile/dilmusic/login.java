@@ -61,7 +61,7 @@ public class login extends AppCompatActivity {
         bregister = findViewById(R.id.register1);
         loginemail = findViewById(R.id.loginemail);
         loginpass = findViewById(R.id.loginpass);
-        notif = findViewById(R.id.txtnotif);
+//        notif = findViewById(R.id.txtnotif);
 
 
     }
